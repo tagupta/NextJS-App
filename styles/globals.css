@@ -6,6 +6,18 @@ body {
   font-family: "Nunito";
 }
 
+p{
+  text-align: justify;
+}
+
+.logo{
+  display: grid;
+}
+
+.logo a{
+  text-align: center;
+}
+
 a{
   color: #333;
   text-decoration: none;
@@ -20,7 +32,7 @@ nav{
   margin: 10px auto 80px;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
   border-bottom: 1px solid #bdb9b9;
 }
 
@@ -35,4 +47,18 @@ footer {
     padding: 30px;
     color: #777;
     border-top: 1px solid #bdb9b9;
+}
+
+.not-found{
+  text-align: center;
+}
+
+.not-found p {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.not-found a {
+  text-decoration: underline;
+  color: #4979ff;
 }
